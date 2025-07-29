@@ -92,7 +92,7 @@ CSS
 }
 ```
 
-How to write semantic HTML by using meaningful tags like <section>, <article>, <header>, and <footer> to improve structure and accessibility
+How to write semantic HTML by using meaningful tags like section, article, header, and footer to improve structure and accessibility
 
 How to use CSS classes effectively to organize styles and avoid repetition
 
