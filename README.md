@@ -119,7 +119,7 @@ Aligning and spacing list items with nth-child and margins
 ## Author
 
 - Website - [Omar Hazem](https://www.linkedin.com/in/omar-hazem-aa287a273/)
-- Twitter - [@yourusername](https://x.com/OmarHaz67778375)
+- Twitter - [@Omarhay67778375](https://x.com/OmarHaz67778375)
 
 
 ## Acknowledgments
