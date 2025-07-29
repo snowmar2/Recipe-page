@@ -5,7 +5,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -19,6 +18,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
+I created this section of the webpage as a way to practice and improve my HTML and CSS skills.
+The goal was to reinforce my understanding, experiment with layout and styling techniques, and expand my front-end development knowledge through hands-on learning.
+
 ### Screenshot
 
 ![A screenshot of the webpage](Webpage-screenshot.png)
@@ -30,66 +32,94 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## My process
 
+I started by analyzing the provided images and the requested design.
+Then, I planned the structure and began building the layout using HTML.
+Once the basic structure was in place, I worked section by section, applying styles with CSS to match the design and improve visual consistency.
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+How to plan and analyze a project before starting the implementation
 
-To see how you can add code snippets, see below:
+How to research effectively and find solutions using resources like MDN
+
+How to customize bullet points using CSS, like this:
+
+
+
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+     <div class="preparation-time">
+        <h3>Preparation time</h3>
+        <ul class="preparation-time-list">
+          <li><strong>Total</strong>: Approximately 10 minutes</li>
+          <li><strong>Preparation</strong>: 5 minutes</li>
+          <li><strong>Cooking</strong>: 5 minutes</li>
+        </ul>
+      </div>
+
 ```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.preparation-time-list li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  /* Space between bullet and text */
+  position: relative;
+  list-style: none;
+  margin-left: 1.2em;
+  font-size: 14px;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.preparation-time-list li::before {
+  content: "•"; /* Custom bullet character */
+  position: absolute;
+  left: -10px;
+  color: hsl(332, 51%, 32%); /* Bullet color */
+  font-size: 1.2em; /* Bullet size */
+  top: -0.03em;
+}
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+How to write semantic HTML by using meaningful tags like <section>, <article>, <header>, and <footer> to improve structure and accessibility
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+How to use CSS classes effectively to organize styles and avoid repetition
+
+Gained a clear understanding of display: inline-block and how it allows elements to flow inline while still respecting box-model styling (like width, margin, padding)
+
+Learned the difference between position: relative and position: absolute, and how to use them together to place elements precisely on the page
+
+Note: I didn’t use CSS Grid or Flexbox in this project, as I haven’t covered them yet in my learning journey — but I’m looking forward to exploring them soon!
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Understanding and using different CSS units: px, em, %, rem
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Customizing bullet points using ::marker and pseudo-elements
+
+Aligning and spacing list items with nth-child and margins
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- MDN Web Docs helped me expand my knowledge on certain topics while creating this page..
+- Claude supported me as a mentor by helping evaluate and review my code throughout the project.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Omar Hazem](https://www.linkedin.com/in/omar-hazem-aa287a273/)
+- Twitter - [@yourusername](https://x.com/OmarHaz67778375)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to acknowledge AlMadersa, where I am currently studying in the Front-End Development Diploma program.
+Special thanks to my course tutor, Mohamed Abu Sarea (محمد أبو سريع), for his valuable guidance and support.
