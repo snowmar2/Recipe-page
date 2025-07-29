@@ -51,6 +51,7 @@ How to customize bullet points using CSS, like this:
 
 
 
+HTML
 
 ```html
      <div class="preparation-time">
@@ -63,6 +64,8 @@ How to customize bullet points using CSS, like this:
       </div>
 
 ```
+
+CSS
 
 ```css
 .preparation-time-list li {
