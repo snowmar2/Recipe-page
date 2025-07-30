@@ -113,7 +113,7 @@ Aligning and spacing list items with nth-child and margins
 ### Useful resources
 
 - MDN Web Docs helped me expand my knowledge on certain topics while creating this page..
-- Claude supported me as a mentor by helping evaluate and review my code throughout the project.
+- Chat gpt Claude supported me as  mentors by helping evaluate and review my code throughout the project.
 
 
 ## Author
